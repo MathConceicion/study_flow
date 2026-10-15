@@ -9,25 +9,22 @@ const materias = [
       Conteudo(
         titulo: 'Funções',
         descricao: 'Estudo sobre funções',
-        nivel: 'Básico',
+        nivel: 'Básico'
       ),
-
       Conteudo(
         titulo: 'Probabilidade',
         descricao: 'Eventos, espaço amostral e cálculo de probabilidades',
-        nivel: 'Intermediário',
+        nivel: 'Intermediário'
       ),
-
       Conteudo(
         titulo: 'Geometria Plana',
         descricao: 'Áreas, perímetros, semelhança de triângulos e métricas',
-        nivel: 'Intermediário',
+        nivel: 'Intermediário'
       ),
-
       Conteudo(
         titulo: 'Análise Combinatória',
         descricao: 'Arranjos, combinações e permutações',
-        nivel: 'Avançado',
+        nivel: 'Avançado'
       ),
     ],
   ),
@@ -47,8 +44,7 @@ const materias = [
       ),
       Conteudo(
         titulo: 'Variação Linguística',
-        descricao:
-            'Diferenças de uso da língua conforme contexto, região e grupo social.',
+        descricao: 'Diferenças de uso da língua conforme contexto, região e grupo social.',
         nivel: 'Intermediário',
       ),
     ],
@@ -59,14 +55,12 @@ const materias = [
     conteudos: [
       Conteudo(
         titulo: 'Brasil República',
-        descricao:
-            'Principais períodos políticos e sociais do Brasil republicano.',
+        descricao: 'Principais períodos políticos e sociais do Brasil republicano.',
         nivel: 'Intermediário',
       ),
       Conteudo(
         titulo: 'Globalização',
-        descricao:
-            'Fluxos econômicos, culturais, tecnológicos e suas consequências.',
+        descricao: 'Fluxos econômicos, culturais, tecnológicos e suas consequências.',
         nivel: 'Básico',
       ),
       Conteudo(
@@ -82,8 +76,7 @@ const materias = [
     conteudos: [
       Conteudo(
         titulo: 'Ecologia',
-        descricao:
-            'Relações ecológicas, cadeias alimentares e impactos ambientais.',
+        descricao: 'Relações ecológicas, cadeias alimentares e impactos ambientais.',
         nivel: 'Básico',
       ),
       Conteudo(

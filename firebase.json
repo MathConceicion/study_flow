@@ -1,0 +1,22 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "flutterbariri-ecbcd",
+                    "appId": "1:269839139222:android:0f6c5de3b4a0c1f58fddb7",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "flutterbariri-ecbcd",
+                    "configurations": {
+                        "android": "1:269839139222:android:0f6c5de3b4a0c1f58fddb7",
+                        "web": "1:269839139222:web:ebd27ace8f805f4c8fddb7"
+                    }
+                }
+            }
+        }
+    }
+}

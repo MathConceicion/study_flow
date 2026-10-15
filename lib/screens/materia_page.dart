@@ -7,7 +7,10 @@ import 'conteudo_page.dart';
 class MateriaPage extends StatefulWidget {
   final Materia materia;
 
-  const MateriaPage({super.key, required this.materia});
+  const MateriaPage({
+    super.key,
+    required this.materia,
+  });
 
   @override
   State<MateriaPage> createState() => _MateriaPageState();
@@ -31,7 +34,9 @@ class _MateriaPageState extends State<MateriaPage> {
     final conteudos = conteudosFiltrados;
 
     return Scaffold(
-      appBar: AppBar(title: Text(widget.materia.nome)),
+      appBar: AppBar(
+        title: Text(widget.materia.nome),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -49,9 +54,12 @@ class _MateriaPageState extends State<MateriaPage> {
             const SizedBox(height: 10),
             Wrap(
               spacing: 8,
-              children: ['Todos', 'Básico', 'Intermediário', 'Avançado'].map((
-                nivel,
-              ) {
+              children: [
+                'Todos',
+                'Básico',
+                'Intermediário',
+                'Avançado',
+              ].map((nivel) {
                 return ChoiceChip(
                   label: Text(nivel),
                   selected: filtroSelecionado == nivel,
@@ -66,7 +74,9 @@ class _MateriaPageState extends State<MateriaPage> {
             const SizedBox(height: 20),
             Expanded(
               child: conteudos.isEmpty
-                  ? const Center(child: Text('Nenhum conteúdo neste nível.'))
+                  ? const Center(
+                      child: Text('Nenhum conteúdo neste nível.'),
+                    )
                   : ListView.builder(
                       itemCount: conteudos.length,
                       itemBuilder: (context, index) {
@@ -78,8 +88,9 @@ class _MateriaPageState extends State<MateriaPage> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) =>
-                                    ConteudoPage(conteudo: conteudo),
+                                builder: (context) => ConteudoPage(
+                                  conteudo: conteudo,
+                                ),
                               ),
                             );
                           },

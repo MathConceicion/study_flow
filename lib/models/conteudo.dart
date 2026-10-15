@@ -6,6 +6,6 @@ class Conteudo {
   const Conteudo({
     required this.titulo,
     required this.descricao,
-    required this.nivel,
+    required this.nivel
   });
 }
